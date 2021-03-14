@@ -45,7 +45,7 @@ class Index extends React.Component {
     return (
       <Layout>
         <Head>
-          <title>Snipcart Store</title>
+          <title>Ecommere</title>
         </Head>
         <Container className={styles.homeContainer}>
           <div className={styles.grid}>
