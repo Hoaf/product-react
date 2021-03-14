@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start -p 3000"
+    "start": "next start -p $PORT"
   },
-  "author": "Victor Chan (victor36max@gmail.com)",
+  "author": "HoaNV (nguyenhoa@gmail.com)",
   "license": "ISC",
   "dependencies": {
     "antd": "^4.13.1",
