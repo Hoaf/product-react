@@ -1,7 +1,3 @@
-/* eslint-disable arrow-parens */
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-console */
-/* eslint-disable import/order */
 import React from 'react';
 import Head from 'next/head';
 import { FaShoppingCart } from 'react-icons/fa';

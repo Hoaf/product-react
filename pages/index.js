@@ -1,18 +1,7 @@
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable no-useless-constructor */
-/* eslint-disable react/jsx-one-expression-per-line */
-/* eslint-disable arrow-body-style */
-/* eslint-disable no-undef */
-/* eslint-disable react/jsx-indent */
-/* eslint-disable import/order */
-/* eslint-disable no-console */
-/* eslint-disable arrow-parens */
-/* eslint-disable linebreak-style */
 import React from 'react';
 import { connect } from 'react-redux';
 import { fetchProductsStart } from '../lib/reducers/products';
 import Container from '../components/Container';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { ShoppingCartOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
 import Link from 'next/link';
