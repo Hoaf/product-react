@@ -10,6 +10,14 @@ const Nav = ({ children }) => {
   return (
     <nav className={styles.nav}>
       <Container className={styles.navContainer}>
+        <p className={styles.description}>
+          <Link href="/management">
+            <a>
+              Management
+            </a>
+          </Link>
+        </p>
+
         <p className={styles.title}>
           <Link href="/">
             <a>
@@ -19,8 +27,8 @@ const Nav = ({ children }) => {
         </p>
 
         <p className={styles.description}>
-          <a className="snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
-          <ShoppingCartOutlined />
+          <a className="snipcart-checkout snipcart-summary" href="#" style={{ textDecoration: "none" }}>
+            <ShoppingCartOutlined />
             <strong className="sr-only">Cart</strong>
             <span className="snipcart-total-price">$0.00</span>
           </a>

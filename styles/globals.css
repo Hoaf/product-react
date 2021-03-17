@@ -1,3 +1,4 @@
+@import "~antd/dist/antd.css";
 html,
 body {
   padding: 0;
@@ -38,4 +39,7 @@ button {
   left: -9999px;
   width: 0;
   height: 0;
+}
+table{
+  margin-top: 10%;
 }
